@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+section{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+button{
+    outline: none;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 90%;
+    height: 10%;
+    font-size: 1.5rem;
+    font-family: khmer;
+    position: relative;
+    left: 50%;
+    top: 15%;
+    transform: translateX(-50%);
+    transition: 1s;
+    background-color: rgb(173, 180, 185);
+}
+button:hover{
+    transition: 0.2s;
+    background-color: aqua;
+}
+button:active{
+    background-color: blue;
+    color: white;
+}
